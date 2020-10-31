@@ -15,11 +15,11 @@ Note: If the command docker-compose fails after installation, check your path. Y
 
 For example:
 
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+    sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
-    1. Optionally, install command completion for the bash and zsh shell.
+   1. Optionally, install command completion for the bash and zsh shell.
 
-    2. Test the installation.
+   2. Test the installation.
 
 $ docker-compose --version
 docker-compose version 1.27.4, build 1110ad01

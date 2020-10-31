@@ -24,6 +24,8 @@ For example:
 $ docker-compose --version
 docker-compose version 1.27.4, build 1110ad01
 
+
+
 Set Up WordPress:-
 
   1. Create a new directory in your home folder called my_wordpress and cd into it:

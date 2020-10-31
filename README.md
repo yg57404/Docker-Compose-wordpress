@@ -31,11 +31,11 @@ Set Up WordPress:-
     mkdir ~/my_wordpress/
     cd ~/my_wordpress/
     
-  2. Create a file named docker-compose.yml in this folder and add the following contents. Set your own passwords for the WORDPRESS_DB_PASSWORD, MYSQL_ROOT_PASSWORD, and                MYSQL_PASSWORD environment options. The password entered for WORDPRESS_DB_PASSWORD and MYSQL_PASSWORD should be the same.
+  2. Create a file named docker-compose.yml in this folder and add the following contents. Set your own passwords for the WORDPRESS_DB_PASSWORD, MYSQL_ROOT_PASSWORD, and         MYSQL_PASSWORD environment options. The password entered for WORDPRESS_DB_PASSWORD and MYSQL_PASSWORD should be the same.
  
   3. From the my_wordpress directory, start your Docker containers:
 
          docker-compose up -d    
  
-   4. The Docker containers will take a minute or two to start up WordPress and MySQL. Afterwards, you can visit your Linode’s IP address in your web browser and you should be          directed to the WordPress setup form.
+   4. The Docker containers will take a minute or two to start up WordPress and MySQL. Afterwards, you can visit your Linode’s IP address in your web browser and you should be   directed to the WordPress setup form.
 

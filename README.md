@@ -5,11 +5,11 @@ Install Docker Compose
 
 1. Run this command to download the current stable release of Docker Compose:
 
-    sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+       sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 2. Apply executable permissions to the binary:
 
-     sudo chmod +x /usr/local/bin/docker-compose
+       sudo chmod +x /usr/local/bin/docker-compose
 
 Note: If the command docker-compose fails after installation, check your path. You can also create a symbolic link to /usr/bin or any other directory in your path.
 
@@ -35,7 +35,7 @@ Set Up WordPress:-
  
   3. From the my_wordpress directory, start your Docker containers:
 
-      docker-compose up -d    
+         docker-compose up -d    
  
    4. The Docker containers will take a minute or two to start up WordPress and MySQL. Afterwards, you can visit your Linode’s IP address in your web browser and you should be          directed to the WordPress setup form.
 
